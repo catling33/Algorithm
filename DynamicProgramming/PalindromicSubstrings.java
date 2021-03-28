@@ -1,3 +1,5 @@
+package DynamicProgramming;
+
 public class PalindromicSubstrings {
     public int countSubstrings(String s) {
         // sanity check
