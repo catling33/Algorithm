@@ -1,4 +1,4 @@
-package Tree;
+package DFS;
 
 public class TreeNode {
     Integer val;
