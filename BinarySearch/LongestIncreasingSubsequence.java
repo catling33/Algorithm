@@ -14,7 +14,6 @@ public class LongestIncreasingSubsequence {
                 lowestEnding[index] = nums[i];
             }
 
-
         }
         return len;
     }
