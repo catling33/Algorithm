@@ -2,7 +2,8 @@
 Algorithm & Data Structure
 
 ## String
-[557. Reverse Words in a String III](https://github.com/catling33/Algorithm/blob/master/Array/ReverseWordsStringIII.java)
+[557. Reverse Words in a String III](https://github.com/catling33/Algorithm/blob/master/String/ReverseWordsStringIII.java)
+[1813. Sentence Similarity III](https://github.com/catling33/Algorithm/blob/master/String/SentenceSimilarity.java)
 
 ## Stack
 [32. Longest Valid Parentheses](https://github.com/catling33/Algorithm/blob/master/Stack/LongestValidParentheses.java)
