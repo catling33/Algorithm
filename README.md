@@ -24,6 +24,7 @@ Algorithm & Data Structure
 [647. Palindromic Substrings](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/PalindromicSubstrings.java)
 [474. Ones and Zeroes](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/OnesAndZeros.java)
 [32. Longest Valid Parentheses](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/LongestValidParentheses.java)
+[Maximum Subarray Sum](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/MaxSubarraySumMod.java)
 
 ## Math
 [423. Reconstruct Original Digits from English](https://github.com/catling33/Algorithm/blob/master/Math/OriginalDigits.java)
