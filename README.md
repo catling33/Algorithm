@@ -17,6 +17,7 @@ Algorithm & Data Structure
 
 ## HashMap
 [966. Vowel Spellchecker](https://github.com/catling33/Algorithm/blob/master/HashMap/VowelSpellchecker.java)
+[1814. Count Nice Pairs in an Array](https://github.com/catling33/Algorithm/blob/master/HashMap/CountNicePairs.java)
 
 ## Dynamic Programming
 [647. Palindromic Substrings](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/PalindromicSubstrings.java)
