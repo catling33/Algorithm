@@ -17,6 +17,7 @@ Algorithm & Data Structure
 
 ## Dynamic Programming
 [647. Palindromic Substrings](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/PalindromicSubstrings.java)
+[474. Ones and Zeroes](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/OnesAndZeros.java)
 
 ## Math
 [423. Reconstruct Original Digits from English](https://github.com/catling33/Algorithm/blob/master/Math/OriginalDigits.java)
