@@ -4,6 +4,9 @@ Algorithm & Data Structure
 ## String
 [557. Reverse Words in a String III](https://github.com/catling33/Algorithm/blob/master/Array/ReverseWordsStringIII.java)
 
+## Stack
+[32. Longest Valid Parentheses](https://github.com/catling33/Algorithm/blob/master/Stack/LongestValidParentheses.java)
+
 ## Tree
 
 ### Tree + Recursion
@@ -18,6 +21,7 @@ Algorithm & Data Structure
 ## Dynamic Programming
 [647. Palindromic Substrings](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/PalindromicSubstrings.java)
 [474. Ones and Zeroes](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/OnesAndZeros.java)
+[32. Longest Valid Parentheses](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/LongestValidParentheses.java)
 
 ## Math
 [423. Reconstruct Original Digits from English](https://github.com/catling33/Algorithm/blob/master/Math/OriginalDigits.java)
