@@ -16,6 +16,8 @@ Algorithm & Data Structure
 ### Tree + Recursion
 [536. Construct Binary Tree from String](https://github.com/catling33/Algorithm/blob/master/Tree/TreeFromString.java)
 
+[337. House Robber III](https://github.com/catling33/Algorithm/blob/master/Tree/HouseRobberIII.java)
+
 ### Tree + DFS
 [971. Flip Binary Tree To Match Preorder Traversal](https://github.com/catling33/Algorithm/blob/master/DFS/FlipMatchPreOrder.java)
 
