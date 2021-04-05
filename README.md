@@ -37,3 +37,4 @@ Algorithm & Data Structure
 
 ## Math
 [423. Reconstruct Original Digits from English](https://github.com/catling33/Algorithm/blob/master/Math/OriginalDigits.java)
+[775. Global and Local Inversions](https://github.com/catling33/Algorithm/blob/master/Math/GlobalLocalInvernsions.java)
