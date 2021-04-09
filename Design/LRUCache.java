@@ -4,78 +4,118 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LRUCache {
-    // capacity
+    // capactiy
     int capacity;
 
-    // index layer : hashmap to store key and reference to node
-    Map<Integer, Node> indexMap = new HashMap<>();
+    // index layer : hashmap
+    Map<Integer, Node> indexMap;
 
     // data layer : doubly linked list
     Node head;
     Node tail;
 
-    // node class to store key and value pair
-    class Node {
+    // node class
+    static class Node {
         int key;
-        int value;
+        int val;
         Node prev;
         Node next;
 
-        public Node(int key, int value) {
+        Node(int key, int val) {
             this.key = key;
-            this.value = value;
+            this.val = val;
         }
     }
 
+    // constructor
     public LRUCache(int capacity) {
-        // set capacity
         this.capacity = capacity;
+        indexMap = new HashMap<>();
     }
 
     public int get(int key) {
-        // search for corresponding node in hashmap
-        // case 1: not found
-        if (!indexMap.containsKey(key)) {
+        Node node = indexMap.get(key);
+        // if not found
+        if (node == null) {
             return -1;
         }
-        // case 2: found -> put to head
-        Node cur = indexMap.get(key);
-        if (cur.prev != null) {
-            cur.prev.next = cur.next;
-            cur.next = head;
-            head = cur;
-        }
-        return cur.value;
+        // remove node
+        remove(node);
+        // append node
+        append(node);
+        // return node's value
+        return node.val;
     }
 
     public void put(int key, int value) {
-        // search for corresponding node
-        // case 1: found -> update, put to head
+        Node node = null;
+        // if exists
         if (indexMap.containsKey(key)) {
-            Node cur = indexMap.get(key);
-            cur.prev.next = cur.next;
-            cur.next = head;
-            head = cur;
-            cur.value = value;
-            return;
+            node = indexMap.get(key);
+            node.val = value;
+            remove(node);
+        } else if (indexMap.size() < capacity) {
+            node = new Node(key, value);
+        } else { // if full
+            node = tail;
+            remove(node);
+            node.key = key;
+            node.val = value;
         }
-
-        Node newNode = new Node(key, value);
-        newNode.next = head;
-        head = newNode;
-        indexMap.put(key, newNode);
-
-        // case 3: not found, full -> remove old node at tail, add new node
-        if (indexMap.size() > capacity) {
-            indexMap.remove(tail.key);
-            tail.prev = tail;
-            tail.next = null;
-            Node cur = new Node(key, value);
-            cur.next = head;
-            head = cur;
-            indexMap.put(key, cur);
-        }
-
+        append(node);
     }
 
+    // remove a node
+    private Node remove(Node node) {
+        // remove from indexMap
+        indexMap.remove(node.key);
+        // link prev to next
+        if (node.prev != null) {
+            node.prev.next = node.next;
+        }
+        // link next to prev
+        if (node.next != null) {
+            node.next.prev = node.prev;
+        }
+
+        // if node is head
+        if (node == head) {
+            head = head.next;
+        }
+        // if node is tail
+        if (node == tail) {
+            tail = tail.prev;
+        }
+        // reset node's prev and next
+        node.next = node.prev = null;
+        return node;
+    }
+
+    // append a node
+    private void append(Node node) {
+        // put into indexMap
+        indexMap.put(node.key, node);
+        // head is null
+        if (head == null) {
+            head = tail = node;
+        } else { // head is node null
+            node.next = head;
+            head.prev = node;
+            head = node;
+        }
+        return;
+    }
+
+    public static void main(String[] args) {
+        LRUCache sol = new LRUCache(2);
+        sol.put(1,1);
+        sol.put(2,2);
+        System.out.println(sol.get(1)); // 1
+        sol.put(3,3);
+        System.out.println(sol.get(2)); // -1
+        sol.put(4,4);
+        System.out.println(sol.get(1));
+        System.out.println(sol.get(3));
+        System.out.println(sol.get(4));
+    }
 }

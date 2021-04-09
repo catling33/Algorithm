@@ -51,3 +51,6 @@ Algorithm & Data Structure
 [423. Reconstruct Original Digits from English](https://github.com/catling33/Algorithm/blob/master/Math/OriginalDigits.java)
 
 [775. Global and Local Inversions](https://github.com/catling33/Algorithm/blob/master/Math/GlobalLocalInvernsions.java)
+
+## Design
+[146. LRU Cache](https://github.com/catling33/Algorithm/blob/master/Design/LRUCache.java)
