@@ -16,6 +16,9 @@ Algorithm & Data Structure
 ### BST
 [285. Inorder Successor in BST (Recursion)](https://github.com/catling33/Algorithm/blob/master/Tree/InorderSuccessorBST_Recursion.java)
 
+[285. Inorder Successor in BST (Search)](https://github.com/catling33/Algorithm/blob/master/Tree/InorderSuccessorBST_Search.java)
+
+
 ### Tree + Recursion
 [536. Construct Binary Tree from String](https://github.com/catling33/Algorithm/blob/master/Tree/TreeFromString.java)
 
