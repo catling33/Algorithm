@@ -38,6 +38,9 @@ Algorithm & Data Structure
 ## DFS
 [17. Letter Combinations of a Phone Number](https://github.com/catling33/Algorithm/blob/master/DFS/PhoneNumber.java)
 
+### DFS + Memoization
+[329. Longest Increasing Path in a Matrix](https://github.com/catling33/Algorithm/blob/master/DFS/LongestIncreasingPath_DFSwithMemo.java)
+
 ## Dynamic Programming
 [647. Palindromic Substrings](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/PalindromicSubstrings.java)
 
