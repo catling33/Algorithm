@@ -11,6 +11,10 @@ Algorithm & Data Structure
 
 [415. Add Strings](https://github.com/catling33/Algorithm/blob/master/String/AddStrings.java)
 
+## Sliding Window
+[340. Longest Substring with At Most K Distinct Characters](https://github.com/catling33/Algorithm/blob/master/SlidingWindow/LongestSubstringWithKDistinct.java)
+
+
 ## Stack
 [32. Longest Valid Parentheses](https://github.com/catling33/Algorithm/blob/master/Stack/LongestValidParentheses.java)
 
