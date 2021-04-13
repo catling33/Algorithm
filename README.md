@@ -14,6 +14,8 @@ Algorithm & Data Structure
 ## Sliding Window
 [340. Longest Substring with At Most K Distinct Characters](https://github.com/catling33/Algorithm/blob/master/SlidingWindow/LongestSubstringWithKDistinct.java)
 
+## Sliding Window + Queue
+[239. Sliding Window Maximum](https://github.com/catling33/Algorithm/blob/master/Queue/MaxValueOfSizeKSlidingWindow.java)
 
 ## Stack
 [32. Longest Valid Parentheses](https://github.com/catling33/Algorithm/blob/master/Stack/LongestValidParentheses.java)
