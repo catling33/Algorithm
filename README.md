@@ -1,6 +1,11 @@
 # Algorithm
 Algorithm & Data Structure
 
+
+## Sort
+[315. Count of Smaller Numbers After Self](https://github.com/catling33/Algorithm/blob/master/Sort/InversionCount.java)
+
+
 ## Array
 [41. First Missing Positive](https://github.com/catling33/Algorithm/blob/master/Array/FirstMissingPositive.java)
 
