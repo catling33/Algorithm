@@ -68,6 +68,9 @@ Algorithm & Data Structure
 
 [377. Combination Sum IV](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/CombinationSumIV.java)
 
+## Union Find
+[684. Redundant Connection](https://github.com/catling33/Algorithm/blob/master/UnionFind/RedundentConnection.java)
+
 ## Math
 [423. Reconstruct Original Digits from English](https://github.com/catling33/Algorithm/blob/master/Math/OriginalDigits.java)
 
