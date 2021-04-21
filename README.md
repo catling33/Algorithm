@@ -57,6 +57,10 @@ Algorithm & Data Structure
 ### DFS + Memoization
 [329. Longest Increasing Path in a Matrix](https://github.com/catling33/Algorithm/blob/master/DFS/LongestIncreasingPath_DFSwithMemo.java)
 
+## BFS1
+[547. Number of Provinces](https://github.com/catling33/Algorithm/blob/master/BFS1/NumberOfProvinces.java)
+
+
 ## Dynamic Programming
 [647. Palindromic Substrings](https://github.com/catling33/Algorithm/blob/master/DynamicProgramming/PalindromicSubstrings.java)
 
