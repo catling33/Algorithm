@@ -102,6 +102,8 @@ Algorithm & Data Structure
 
 [171. Excel Sheet Column Number](https://github.com/catling33/Algorithm/blob/master/Math/ExcelSheetColumnNumber.java)
 
+[29. Divide Two Integers](https://github.com/catling33/Algorithm/blob/master/Math/DivideTwoIntegers.java)
+
 
 ## Design
 [146. LRU Cache](https://github.com/catling33/Algorithm/blob/master/Design/LRUCache.java)
