@@ -10,6 +10,9 @@ Algorithm & Data Structure
 [41. First Missing Positive](https://github.com/catling33/Algorithm/blob/master/Array/FirstMissingPositive.java)
 [48. Rotate Image](https://github.com/catling33/Algorithm/blob/master/Array/RotateImage.java)
 
+## LinkedList
+[138. Copy List with Random Pointer](https://github.com/catling33/Algorithm/blob/master/LinkedList/CopyListWithRandomPointer.java)
+
 
 ## String
 [557. Reverse Words in a String III](https://github.com/catling33/Algorithm/blob/master/String/ReverseWordsStringIII.java)
