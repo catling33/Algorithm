@@ -96,6 +96,8 @@ Algorithm & Data Structure
 
 [273. Integer to English Words](https://github.com/catling33/Algorithm/blob/master/Math/IntegerToEnglish.java)
 
+[171. Excel Sheet Column Number](https://github.com/catling33/Algorithm/blob/master/Math/ExcelSheetColumnNumber.java)
+
 
 ## Design
 [146. LRU Cache](https://github.com/catling33/Algorithm/blob/master/Design/LRUCache.java)
