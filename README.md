@@ -15,6 +15,7 @@ Algorithm & Data Structure
 
 [142. Linked List Cycle II](https://github.com/catling33/Algorithm/blob/master/LinkedList/LinkedListCycleII.java)
 
+[287. Find the Duplicate Number](https://github.com/catling33/Algorithm/blob/master/LinkedList/FindDuplicateNumber.java)
 
 
 ## String
