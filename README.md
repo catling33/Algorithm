@@ -39,6 +39,9 @@ Algorithm & Data Structure
 ## Stack
 [32. Longest Valid Parentheses](https://github.com/catling33/Algorithm/blob/master/Stack/LongestValidParentheses.java)
 
+## heap
+[1642. Furthest Building You Can Reach](https://github.com/catling33/Algorithm/blob/master/Heap/FurthestBuildingReach.java)
+
 
 ## Tree
 
