@@ -99,6 +99,8 @@ Algorithm & Data Structure
 ## Union Find
 [684. Redundant Connection](https://github.com/catling33/Algorithm/blob/master/UnionFind/RedundentConnection.java)
 
+[721. Accounts Merge](https://github.com/catling33/Algorithm/blob/master/UnionFind/AccountsMerge.java)
+
 
 ## Math
 [423. Reconstruct Original Digits from English](https://github.com/catling33/Algorithm/blob/master/Math/OriginalDigits.java)
