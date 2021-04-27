@@ -1,6 +1,9 @@
 # Algorithm
 Algorithm & Data Structure
 
+## Binary Search
+[1642. Furthest Building You Can Reach](https://github.com/catling33/Algorithm/blob/BinarySearch/FurthestBuilding.java)
+
 
 ## Sort
 [315. Count of Smaller Numbers After Self](https://github.com/catling33/Algorithm/blob/master/Sort/InversionCount.java)
