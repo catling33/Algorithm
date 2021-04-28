@@ -69,6 +69,8 @@ Algorithm & Data Structure
 
 [1814. Count Nice Pairs in an Array](https://github.com/catling33/Algorithm/blob/master/HashMap/CountNicePairs.java)
 
+[560. Subarray Sum Equals K](https://github.com/catling33/Algorithm/blob/master/HashMap/SubarraySumEqualsK.java)
+
 
 ## DFS
 [17. Letter Combinations of a Phone Number](https://github.com/catling33/Algorithm/blob/master/DFS/PhoneNumber.java)
