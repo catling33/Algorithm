@@ -1,4 +1,4 @@
-package HashMap;
+package HashTable;
 
 public class BinarySubarraysSum {
 }

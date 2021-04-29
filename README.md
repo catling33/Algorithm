@@ -67,7 +67,7 @@ Algorithm & Data Structure
 [971. Flip Binary Tree To Match Preorder Traversal](https://github.com/catling33/Algorithm/blob/master/DFS/FlipMatchPreOrder.java)
 
 
-## HashMap
+## HashTable
 [966. Vowel Spellchecker](https://github.com/catling33/Algorithm/blob/master/HashMap/VowelSpellchecker.java)
 
 [1814. Count Nice Pairs in an Array](https://github.com/catling33/Algorithm/blob/master/HashMap/CountNicePairs.java)

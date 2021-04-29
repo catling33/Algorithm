@@ -1,12 +1,13 @@
-package HashMap;
+package HashTable;
+
 
 import java.util.*;
 
 public class VowelSpellchecker {
     // table 1, 2, 3
     Set<String> exactSet = new HashSet<>();
-    Map<String, String> lowMap = new HashMap<>();
-    Map<String, String> volMap = new HashMap<>();
+    Map<String, String> lowMap = new HashMap<String, String>();
+    Map<String, String> volMap = new HashMap<String, String>();
 
     public String[] spellchecker(String[] wordlist, String[] queries) {
         // sanity check
