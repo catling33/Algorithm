@@ -123,6 +123,8 @@ Algorithm & Data Structure
 
 [29. Divide Two Integers](https://github.com/catling33/Algorithm/blob/master/Math/DivideTwoIntegers.java)
 
+[970. Powerful Integers](https://github.com/catling33/Algorithm/blob/master/Math/PowerfulIntegers.java)
+
 
 ## Design
 [146. LRU Cache](https://github.com/catling33/Algorithm/blob/master/Design/LRUCache.java)
