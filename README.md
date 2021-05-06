@@ -16,6 +16,10 @@ Algorithm & Data Structure
 
 [1229. Meeting Scheduler](https://github.com/catling33/Algorithm/blob/master/Array/MeetingScheduler.java)
 
+[665. Non-decreasing Array](https://github.com/catling33/Algorithm/blob/master/Array/NonDecreasingArray.java)
+
+
+
 ## LinkedList
 [138. Copy List with Random Pointer](https://github.com/catling33/Algorithm/blob/master/LinkedList/CopyListWithRandomPointer.java)
 
