@@ -4,91 +4,71 @@ import java.util.*;
 
 public class SerializeDeserialize {
 
-    // serialize
     public String serialize(TreeNode root) {
+        // sanity check
         if (root == null) {
             return "#";
         }
-        // result list to print
-        List<String> list = new ArrayList<>();
-        // FIFO queue to store visited nodes
-        Deque<TreeNode> queue = new ArrayDeque<>();
-        // initial status
-        queue.offer(root);
-        // BFS
-        while (!queue.isEmpty()) {
-            TreeNode cur = queue.poll();
-            // deal with left child
-            if (cur.left == null) {
-                list.add("#");
-            } else {
-                list.add(cur.left.val + "");
-                queue.offer(cur.left);
-            }
-            // deal with right child
-            if (cur.right == null) {
-                list.add("#");
-            } else {
-                list.add(cur.right.val + "");
-                queue.offer(cur.right);
-            }
-        }
+        // string builder to record the result so far
+        StringBuilder sb = new StringBuilder();
 
-        // remove the tailing "#"
-        for (int i = list.size() - 1; i > 0; i--) {
-            if (list.get(i) == "#") {
-                list.remove(i);
-            } else if (list.get(i) != "#") {
-                break;
-            }
-        }
-        // return string
-        return String.join(",", list);
+        // dfs
+        serializeDFS(root, sb);
+
+        sb.deleteCharAt(sb.length() - 1);
+        return new String(sb);
     }
 
-    // deserialize
-    public TreeNode deserialize(String data) {
+    private void serializeDFS(TreeNode root, StringBuilder sb) {
+        // base case
+        if (root == null) {
+            sb.append("#,");
+            return;
+        }
+        // recursion rule
+        // self
+        sb.append(root.val + "");
+        sb.append(",");
+        // left
+        serializeDFS(root.left, sb);
+        // right
+        serializeDFS(root.right, sb);
+    }
 
-        // parse the node values in data string into array of strings
-        String[] arr = data.split(",");
-        // check if the tree is null
-        if (arr[0].equals("#")) {
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String data) {
+        // sanity check
+        if (data == null || data.length() == 0 || data == "#") {
             return null;
         }
+        // parse string into string array
+        String[] array = data.split(",");
+        // record the index on string array so far
+        int[] index = new int[1];
+        // dfs
+        return deserializeDFS(array, index);
+    }
 
-        // first element in the array is root
-        TreeNode root = new TreeNode(Integer.parseInt(arr[0]));
-        // queue to store visited nodes
-        LinkedList<TreeNode> queue = new LinkedList<>();
-        // initial status
-        queue.offer(root);
-        // indicate the current index of element in array
-        int index = 1;
-
-        // BFS
-        while (!queue.isEmpty() && index < arr.length) {
-            TreeNode cur = queue.poll();
-            if (cur != null) {
-                // create and attach left child
-                TreeNode left = null;
-                if (!arr[index].equals("#")) { // value of left child is not null
-                    left = new TreeNode(Integer.parseInt(arr[index]));
-                }
-                cur.left = left;
-                queue.offer(left);
-                index++;
-
-                // create and attach right child
-                TreeNode right = null;
-                if (index < arr.length && !arr[index].equals("#")) {
-                    right = new TreeNode(Integer.parseInt(arr[index]));
-                }
-                cur.right = right;
-                queue.offer(right);
-                index++;
-            }
+    private TreeNode deserializeDFS(String[] array, int[] index) {
+        // base case
+        if (index[0] >= array.length) {
+            return null;
         }
-        // return root
+        if (array[index[0]].equals("#")) {
+            return null;
+        }
+        // recursion rule:
+        // self
+        int value = Integer.valueOf(array[index[0]]);
+        TreeNode root = new TreeNode(value);
+
+        // append left
+        index[0]++;
+        root.left = deserializeDFS(array, index);
+        // apend right
+        index[0]++;
+        root.right = deserializeDFS(array, index);
+
         return root;
     }
 
